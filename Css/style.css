@@ -1,0 +1,111 @@
+/*Recordar que el codigo no contiene media para dispositivos mobiles, muy pronto será agregado, gracias <3 */
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+#Titulo{
+  font-family: 'Comic Neue', cursive;
+}
+
+.Contenedor{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#comienzo{
+  font-style: italic;
+  background: linear-gradient(to right, #FF0000, #00FF00);
+  color: white;
+}
+
+#Bot{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+  color: #846f5b;
+}
+
+#res{
+  font-family: sans-serif;
+}
+
+.Resultados{
+  width: 300px;
+  height: 100px;
+  background: linear-gradient(to bottom, #cccccc, #999999);
+  margin: 10px auto;
+  padding: 20px;
+  overflow: auto;
+}
+
+#Mesa{
+  width: 300px;
+  height: 100px;
+  background: linear-gradient(to bottom, #cccccc, #999999);
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  overflow: auto;
+  position: relative;
+}
+
+.Boton{
+  font-family: monospace;
+  font-size: x-large;
+  transition-duration: 0.2s;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: greenyellow; 
+  color: black; 
+  border: 2px solid green;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.Boton:hover{
+  transform: scale(1.1);
+  border-radius: 14px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: black;
+  background-color: white;
+}
+
+#Bjugar{
+  font-family: monospace;
+  font-size: x-large;
+  transition-duration: 0.2s;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(169, 197, 222); 
+  color: black; 
+  border: 2px solid blue;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#Bjugar:hover{
+  transform: scale(1.1);
+  border-radius: 14px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: black;
+  background-color: white;
+}
+
+.Denuevo{
+  font-family: monospace;
+  font-size: x-large;
+  transition-duration: 0.2s;
+  padding: 10px;
+  border-radius: 8px;
+  background-color:  #800040; 
+  color: #FFF; 
+  border: 2px solid red;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.Denuevo:hover{
+  transform: scale(1.1);
+  border-radius: 14px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: black;
+  background-color: white;
+}
